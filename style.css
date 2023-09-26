@@ -1,0 +1,174 @@
+* {
+    font-family: Creepster, cursive;
+}
+
+header {
+    text-align: center;
+    font-size: 200%;
+    background-color: orange;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 50px #ee01ee;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+button {
+    margin: 0 auto;
+    font-size: 300%;
+    margin-top: 50px;
+    transition: all .3s ease-in-out;
+    background-color: orange;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 50px #ee01ee;
+}
+
+
+
+label {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color: orange;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px #ee01ee;
+}
+
+#timer {
+    font-size: 200%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.ask1 {
+    font-size: 150%;
+    background-color: purple;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.options1 {
+    font-size: 150%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    cursor: grab;
+    margin-top: 10px;
+    text-decoration: underline;
+
+}
+
+#feedback {
+    font-size: 150%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+#finalScore {
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 2px;
+    font-size: 200%;
+    box-shadow: 0px 0px 10px #ee01ee;
+
+}
+
+#scoreboard {
+    margin: 0 auto;
+}
+
+#leaderboard {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px #ee01ee;
+
+}
+
+#leaderboard > h2 {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#leaderboardScores {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-right: 40px;
+    font-size: 150%;
+}
+
+
+#nameInputDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px #ee01ee;
+    font-size: 150%;
+}
+
+
+
+#participantName {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+#saveScoreBtn {
+    border-radius: 5px;
+}
+
+
+#saveScoreBtn:hover {
+    box-shadow: 2px 2px 50px #ee01ee;
+}

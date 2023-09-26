@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <head>
+    <html lang="en">
+
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="style.css">
+        <title>Somewhat Perturbing Quiz</title>
+        <link rel="icon" type="image/x-icon" href="images/eyeball.PNG">
+    </head>
+
+    <body>
+
+        <header class="banner">
+            <h1>Somewhat Perturbing Quiz</h1>
+        </header>
+
+
+
+
+        <button id="start">Start Quiz:</button>
+
+        <main class="container" id="container">
+        <div id="timer"></div>
+            <div class="question-list">
+
+
+                <!--Questions-->
+                <div class="ask1">
+                <p></p>
+                </div>
+                <div class="options1">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                </div>
+                <div id="feedback" style="display: none;"></div>
+
+        </div>    
+        </main>
+
+        <div id="scoreboard" style="display: none;">
+            
+            <p id="finalScore"></p>
+
+        </div>
+
+        <div id="leaderboard" style="display: none";>
+            
+            <h2>Leaderboard</h2>
+            <ul id="leaderboardScores"></ul>
+
+        </div>
+
+        <div id="nameInputDiv" style="display: none;">
+            <label for="participantName">Enter Your Name: </label>
+            <input type="text" id="participantName">
+            <button id="saveScoreBtn">Save My Score</button>
+        </div>
+
+
+
+        <script src="java.js"></script>
+
+    </body>
+
+    <footer>
+    </footer>
+
+
+
+</html>
